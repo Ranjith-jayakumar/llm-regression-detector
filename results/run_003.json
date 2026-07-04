@@ -1,0 +1,54 @@
+{
+    "prompt_version": "v1",
+    "total_cases": 5,
+    "passed_cases": 4,
+    "failed_cases": 1,
+    "accuracy": 80.0,
+    "results": [
+        {
+            "id": "email_001",
+            "expected_category": "billing",
+            "predicted_category": "billing",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer requests refund for duplicate charge",
+            "passed": true,
+            "latency_ms": 1378.88
+        },
+        {
+            "id": "email_002",
+            "expected_category": "billing",
+            "predicted_category": "billing",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer inquires about unexpected fee on their invoice",
+            "passed": true,
+            "latency_ms": 1056.99
+        },
+        {
+            "id": "email_003",
+            "expected_category": "billing",
+            "predicted_category": "billing",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer disputes incorrect billing after cancelling their plan.",
+            "passed": true,
+            "latency_ms": 1172.34
+        },
+        {
+            "id": "email_004",
+            "expected_category": "billing",
+            "predicted_category": "account",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Request for a copy of the latest invoice",
+            "passed": false,
+            "latency_ms": 1178.24
+        },
+        {
+            "id": "email_005",
+            "expected_category": "billing",
+            "predicted_category": "billing",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer reports failed payment despite sufficient balance",
+            "passed": true,
+            "latency_ms": 1181.64
+        }
+    ]
+}

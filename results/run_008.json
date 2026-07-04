@@ -1,0 +1,54 @@
+{
+    "prompt_version": "v2",
+    "total_cases": 5,
+    "passed_cases": 5,
+    "failed_cases": 0,
+    "accuracy": 100.0,
+    "results": [
+        {
+            "id": "email_001",
+            "expected_category": "billing",
+            "predicted_category": "billing",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer was charged twice for their monthly subscription and requests a refund of the extra payment.",
+            "passed": true,
+            "latency_ms": 1352.83
+        },
+        {
+            "id": "email_002",
+            "expected_category": "billing",
+            "predicted_category": "billing",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer is questioning an unexpected fee on their invoice",
+            "passed": true,
+            "latency_ms": 1108.34
+        },
+        {
+            "id": "email_003",
+            "expected_category": "billing",
+            "predicted_category": "billing",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer was billed despite cancelling their plan",
+            "passed": true,
+            "latency_ms": 1139.62
+        },
+        {
+            "id": "email_004",
+            "expected_category": "billing",
+            "predicted_category": "billing",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Requesting a copy of the latest invoice",
+            "passed": true,
+            "latency_ms": 1176.23
+        },
+        {
+            "id": "email_005",
+            "expected_category": "billing",
+            "predicted_category": "billing",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Payment failed despite sufficient card balance",
+            "passed": true,
+            "latency_ms": 1185.82
+        }
+    ]
+}

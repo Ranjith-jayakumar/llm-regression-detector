@@ -1,0 +1,43 @@
+[
+  {
+    "id": "email_001",
+    "email": "I was charged twice for my monthly subscription. Please refund the extra payment.",
+    "expected_category": "billing",
+    "expected_summary": "Customer has a billing or payment-related request.",
+    "difficulty": "easy",
+    "notes": "Billing scenario."
+  },
+  {
+    "id": "email_002",
+    "email": "My invoice shows an unexpected fee. Can you explain it?",
+    "expected_category": "billing",
+    "expected_summary": "Customer has a billing or payment-related request.",
+    "difficulty": "easy",
+    "notes": "Billing scenario."
+  },
+  {
+    "id": "email_003",
+    "email": "I cancelled my plan but was still billed this month.",
+    "expected_category": "billing",
+    "expected_summary": "Customer has a billing or payment-related request.",
+    "difficulty": "easy",
+    "notes": "Billing scenario."
+  },
+  {
+    "id": "email_004",
+    "email": "I need a copy of my latest invoice for reimbursement.",
+    "expected_category": "billing",
+    "expected_summary": "Customer has a billing or payment-related request.",
+    "difficulty": "easy",
+    "notes": "Billing scenario."
+  },
+  {
+    "id": "email_005",
+    "email": "My payment failed even though my card has enough balance.",
+    "expected_category": "billing",
+    "expected_summary": "Customer has a billing or payment-related request.",
+    "difficulty": "easy",
+    "notes": "Billing scenario."
+  }
+
+]

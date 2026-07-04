@@ -1,0 +1,459 @@
+{
+    "prompt_version": "v1",
+    "total_cases": 50,
+    "passed_cases": 32,
+    "failed_cases": 18,
+    "accuracy": 64.0,
+    "results": [
+        {
+            "id": "email_001",
+            "expected_category": "billing",
+            "predicted_category": "billing",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer requests refund for duplicate charge",
+            "passed": true,
+            "latency_ms": 4811.51
+        },
+        {
+            "id": "email_002",
+            "expected_category": "billing",
+            "predicted_category": "billing",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer inquires about unexpected fee on their invoice",
+            "passed": true,
+            "latency_ms": 660.47
+        },
+        {
+            "id": "email_003",
+            "expected_category": "billing",
+            "predicted_category": "billing",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer disputes being charged after cancelling their plan",
+            "passed": true,
+            "latency_ms": 691.11
+        },
+        {
+            "id": "email_004",
+            "expected_category": "billing",
+            "predicted_category": "account",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Request for a copy of the latest invoice",
+            "passed": false,
+            "latency_ms": 624.79
+        },
+        {
+            "id": "email_005",
+            "expected_category": "billing",
+            "predicted_category": "billing",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer reports failed payment despite sufficient card balance",
+            "passed": true,
+            "latency_ms": 632.12
+        },
+        {
+            "id": "email_006",
+            "expected_category": "billing",
+            "predicted_category": "account",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer requests to switch from monthly to yearly billing",
+            "passed": false,
+            "latency_ms": 599.57
+        },
+        {
+            "id": "email_007",
+            "expected_category": "billing",
+            "predicted_category": "billing",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer complains about unexpected billing after free trial",
+            "passed": true,
+            "latency_ms": 618.27
+        },
+        {
+            "id": "email_008",
+            "expected_category": "billing",
+            "predicted_category": "general",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer inquires about delayed refund",
+            "passed": false,
+            "latency_ms": 619.65
+        },
+        {
+            "id": "email_009",
+            "expected_category": "billing",
+            "predicted_category": "technical",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Payment issue after updating card details",
+            "passed": false,
+            "latency_ms": 620.06
+        },
+        {
+            "id": "email_010",
+            "expected_category": "billing",
+            "predicted_category": "billing",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer reports incorrect currency charge",
+            "passed": true,
+            "latency_ms": 593.86
+        },
+        {
+            "id": "email_011",
+            "expected_category": "billing",
+            "predicted_category": "account",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Request to remove late fee from customer's account",
+            "passed": false,
+            "latency_ms": 639.39
+        },
+        {
+            "id": "email_012",
+            "expected_category": "billing",
+            "predicted_category": "account",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Request for GST invoice",
+            "passed": false,
+            "latency_ms": 557.48
+        },
+        {
+            "id": "email_013",
+            "expected_category": "billing",
+            "predicted_category": "general",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer inquires about incorrect plan purchase",
+            "passed": false,
+            "latency_ms": 608.5
+        },
+        {
+            "id": "email_014",
+            "expected_category": "billing",
+            "predicted_category": "general",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer inquiry about refund",
+            "passed": false,
+            "latency_ms": 573.35
+        },
+        {
+            "id": "email_015",
+            "expected_category": "billing",
+            "predicted_category": "general",
+            "expected_summary": "Customer has a billing or payment-related request.",
+            "predicted_summary": "Customer inquires about change in renewal price",
+            "passed": false,
+            "latency_ms": 614.84
+        },
+        {
+            "id": "email_016",
+            "expected_category": "account",
+            "predicted_category": "general",
+            "expected_summary": "Customer needs help managing or accessing their account.",
+            "predicted_summary": "Customer is having trouble logging in due to forgotten password",
+            "passed": false,
+            "latency_ms": 647.16
+        },
+        {
+            "id": "email_017",
+            "expected_category": "account",
+            "predicted_category": "account",
+            "expected_summary": "Customer needs help managing or accessing their account.",
+            "predicted_summary": "Customer's account has been locked due to excessive login attempts.",
+            "passed": true,
+            "latency_ms": 651.45
+        },
+        {
+            "id": "email_018",
+            "expected_category": "account",
+            "predicted_category": "account",
+            "expected_summary": "Customer needs help managing or accessing their account.",
+            "predicted_summary": "Customer requests to update their email address.",
+            "passed": true,
+            "latency_ms": 658.71
+        },
+        {
+            "id": "email_019",
+            "expected_category": "account",
+            "predicted_category": "account",
+            "expected_summary": "Customer needs help managing or accessing their account.",
+            "predicted_summary": "Customer inquires about deleting their account",
+            "passed": true,
+            "latency_ms": 608.05
+        },
+        {
+            "id": "email_020",
+            "expected_category": "account",
+            "predicted_category": "general",
+            "expected_summary": "Customer needs help managing or accessing their account.",
+            "predicted_summary": "Customer is reporting an issue with not receiving a verification email",
+            "passed": false,
+            "latency_ms": 648.6
+        },
+        {
+            "id": "email_021",
+            "expected_category": "account",
+            "predicted_category": "account",
+            "expected_summary": "Customer needs help managing or accessing their account.",
+            "predicted_summary": "Customer reports suspicious account activity",
+            "passed": true,
+            "latency_ms": 598.62
+        },
+        {
+            "id": "email_022",
+            "expected_category": "account",
+            "predicted_category": "account",
+            "expected_summary": "Customer needs help managing or accessing their account.",
+            "predicted_summary": "Customer requests to update their phone number.",
+            "passed": true,
+            "latency_ms": 609.42
+        },
+        {
+            "id": "email_023",
+            "expected_category": "account",
+            "predicted_category": "general",
+            "expected_summary": "Customer needs help managing or accessing their account.",
+            "predicted_summary": "Customer is unable to enable two-factor authentication",
+            "passed": false,
+            "latency_ms": 662.37
+        },
+        {
+            "id": "email_024",
+            "expected_category": "account",
+            "predicted_category": "account",
+            "expected_summary": "Customer needs help managing or accessing their account.",
+            "predicted_summary": "User reports issue with username after signing up.",
+            "passed": true,
+            "latency_ms": 638.49
+        },
+        {
+            "id": "email_025",
+            "expected_category": "account",
+            "predicted_category": "account",
+            "expected_summary": "Customer needs help managing or accessing their account.",
+            "predicted_summary": "Request to merge two existing customer accounts.",
+            "passed": true,
+            "latency_ms": 605.32
+        },
+        {
+            "id": "email_026",
+            "expected_category": "account",
+            "predicted_category": "technical",
+            "expected_summary": "Customer needs help managing or accessing their account.",
+            "predicted_summary": "User is experiencing login issues after changing password",
+            "passed": false,
+            "latency_ms": 625.04
+        },
+        {
+            "id": "email_027",
+            "expected_category": "account",
+            "predicted_category": "account",
+            "expected_summary": "Customer needs help managing or accessing their account.",
+            "predicted_summary": "Customer is experiencing issue with saving profile information",
+            "passed": true,
+            "latency_ms": 620.63
+        },
+        {
+            "id": "email_028",
+            "expected_category": "account",
+            "predicted_category": "account",
+            "expected_summary": "Customer needs help managing or accessing their account.",
+            "predicted_summary": "Customer wants to reactivate their old account",
+            "passed": true,
+            "latency_ms": 623.29
+        },
+        {
+            "id": "email_029",
+            "expected_category": "account",
+            "predicted_category": "general",
+            "expected_summary": "Customer needs help managing or accessing their account.",
+            "predicted_summary": "Customer is experiencing an issue with their recovery email",
+            "passed": false,
+            "latency_ms": 636.79
+        },
+        {
+            "id": "email_030",
+            "expected_category": "account",
+            "predicted_category": "account",
+            "expected_summary": "Customer needs help managing or accessing their account.",
+            "predicted_summary": "Customer's account was mistakenly suspended",
+            "passed": true,
+            "latency_ms": 565.97
+        },
+        {
+            "id": "email_031",
+            "expected_category": "technical",
+            "predicted_category": "technical",
+            "expected_summary": "Customer reports a technical problem with the product.",
+            "predicted_summary": "User reports issue with mobile app crashing",
+            "passed": true,
+            "latency_ms": 613.66
+        },
+        {
+            "id": "email_032",
+            "expected_category": "technical",
+            "predicted_category": "general",
+            "expected_summary": "Customer reports a technical problem with the product.",
+            "predicted_summary": "Customer reports issue with website performance",
+            "passed": false,
+            "latency_ms": 589.3
+        },
+        {
+            "id": "email_033",
+            "expected_category": "technical",
+            "predicted_category": "technical",
+            "expected_summary": "Customer reports a technical problem with the product.",
+            "predicted_summary": "User experiencing file upload issues with a 500 error",
+            "passed": true,
+            "latency_ms": 614.65
+        },
+        {
+            "id": "email_034",
+            "expected_category": "technical",
+            "predicted_category": "general",
+            "expected_summary": "Customer reports a technical problem with the product.",
+            "predicted_summary": "Customer is experiencing issues with notifications",
+            "passed": false,
+            "latency_ms": 636.56
+        },
+        {
+            "id": "email_035",
+            "expected_category": "technical",
+            "predicted_category": "general",
+            "expected_summary": "Customer reports a technical problem with the product.",
+            "predicted_summary": "Customer is experiencing an issue with the search feature",
+            "passed": false,
+            "latency_ms": 626.25
+        },
+        {
+            "id": "email_036",
+            "expected_category": "technical",
+            "predicted_category": "technical",
+            "expected_summary": "Customer reports a technical problem with the product.",
+            "predicted_summary": "App freezing issue during checkout",
+            "passed": true,
+            "latency_ms": 584.36
+        },
+        {
+            "id": "email_037",
+            "expected_category": "technical",
+            "predicted_category": "technical",
+            "expected_summary": "Customer reports a technical problem with the product.",
+            "predicted_summary": "Customer experiencing issue with video playback in dashboard",
+            "passed": true,
+            "latency_ms": 617.9
+        },
+        {
+            "id": "email_038",
+            "expected_category": "technical",
+            "predicted_category": "technical",
+            "expected_summary": "Customer reports a technical problem with the product.",
+            "predicted_summary": "Customer reports issue with API response",
+            "passed": true,
+            "latency_ms": 591.99
+        },
+        {
+            "id": "email_039",
+            "expected_category": "technical",
+            "predicted_category": "technical",
+            "expected_summary": "Customer reports a technical problem with the product.",
+            "predicted_summary": "User is experiencing issues with installing the desktop app.",
+            "passed": true,
+            "latency_ms": 651.36
+        },
+        {
+            "id": "email_040",
+            "expected_category": "technical",
+            "predicted_category": "technical",
+            "expected_summary": "Customer reports a technical problem with the product.",
+            "predicted_summary": "User experiencing data syncing issues across devices",
+            "passed": true,
+            "latency_ms": 607.81
+        },
+        {
+            "id": "email_041",
+            "expected_category": "general",
+            "predicted_category": "account",
+            "expected_summary": "Customer is requesting general information.",
+            "predicted_summary": "Inquiry about premium plan features",
+            "passed": false,
+            "latency_ms": 612.56
+        },
+        {
+            "id": "email_042",
+            "expected_category": "general",
+            "predicted_category": "general",
+            "expected_summary": "Customer is requesting general information.",
+            "predicted_summary": "Inquiry about student discount policy",
+            "passed": true,
+            "latency_ms": 589.7
+        },
+        {
+            "id": "email_043",
+            "expected_category": "general",
+            "predicted_category": "general",
+            "expected_summary": "Customer is requesting general information.",
+            "predicted_summary": "Customer inquiry about scheduling a product demo",
+            "passed": true,
+            "latency_ms": 608.33
+        },
+        {
+            "id": "email_044",
+            "expected_category": "general",
+            "predicted_category": "general",
+            "expected_summary": "Customer is requesting general information.",
+            "predicted_summary": "Customer inquires about business hours",
+            "passed": true,
+            "latency_ms": 538.75
+        },
+        {
+            "id": "email_045",
+            "expected_category": "general",
+            "predicted_category": "general",
+            "expected_summary": "Customer is requesting general information.",
+            "predicted_summary": "Customer inquires about free trial availability",
+            "passed": true,
+            "latency_ms": 597.45
+        },
+        {
+            "id": "email_046",
+            "expected_category": "general",
+            "predicted_category": "general",
+            "expected_summary": "Customer is requesting general information.",
+            "predicted_summary": "Customer inquires about accessing company's privacy policy",
+            "passed": true,
+            "latency_ms": 601.73
+        },
+        {
+            "id": "email_047",
+            "expected_category": "general",
+            "predicted_category": "general",
+            "expected_summary": "Customer is requesting general information.",
+            "predicted_summary": "Customer inquires about language support",
+            "passed": true,
+            "latency_ms": 607.72
+        },
+        {
+            "id": "email_048",
+            "expected_category": "general",
+            "predicted_category": "general",
+            "expected_summary": "Customer is requesting general information.",
+            "predicted_summary": "Customer inquiry about contacting sales",
+            "passed": true,
+            "latency_ms": 597.89
+        },
+        {
+            "id": "email_049",
+            "expected_category": "general",
+            "predicted_category": "general",
+            "expected_summary": "Customer is requesting general information.",
+            "predicted_summary": "Customer inquires about plan differences",
+            "passed": true,
+            "latency_ms": 595.87
+        },
+        {
+            "id": "email_050",
+            "expected_category": "general",
+            "predicted_category": "general",
+            "expected_summary": "Customer is requesting general information.",
+            "predicted_summary": "Customer seeking general information about purchasing",
+            "passed": true,
+            "latency_ms": 600.84
+        }
+    ]
+}

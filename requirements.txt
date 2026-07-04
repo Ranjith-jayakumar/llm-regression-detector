@@ -1,0 +1,6 @@
+langchain-ollama
+python-dotenv
+pydantic
+pyyaml
+langchain
+langchain-core
